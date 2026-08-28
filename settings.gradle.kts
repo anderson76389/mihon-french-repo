@@ -11,9 +11,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven(url = "https://jitpack.io")
     }
 }
 
 rootProject.name = "mihon-french-repo"
+include(":core")
 include(":scanmanga")
